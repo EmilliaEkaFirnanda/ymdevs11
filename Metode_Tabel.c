@@ -4,7 +4,7 @@
 #include <math.h>
 
 int main(){
-  
+  print("Program Metode Numerik Tabel");
   system("pause");
   return 0;
 }
