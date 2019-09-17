@@ -2,14 +2,26 @@
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
-define maks 100000000
-  
-double f(double x){
-  return (((x*x) - (pow(exp(1),x)))+4);
-}
 
 int main(){
   print("Program Metode Numerik Tabel");
+  
+  //haloo ini kita bisa liat bareng2 ga sehh, kok gaada kursor mu
+  
+  float a,b,toleransi;
+  int e = 2.7182818248590452;
+  printf("Masukan batas bawah : ",a);
+  scanf("%lf",&a);
+  printf("Masukan batas atas  : ",b);
+  scanf("%lf",&b);
+  printf("Masukan toleransi kesalahan : ",toleransi);
+  scanf("%lf",&toleransi);
+  
+  
+  
+  
+  
+  
   system("pause");
   return 0;
 }
